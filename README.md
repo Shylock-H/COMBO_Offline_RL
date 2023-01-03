@@ -1,7 +1,7 @@
 # Overview
 We provide a torch implementation of offline model-based reinforcement learning algorithm COMBO described in the following paper [COMBO: Conservative Offline Model-based Policy Optimization](https://arxiv.org/pdf/2005.13239.pdf)
 
-The implementation of ensemble dynamics model will have an important impact on the performance of model-based RL algorithm. So both tensorflow dynamic model and pytorch dynamic model are tested. For tensorflow model, we don't find offcial code for COMBO, so we reuse the official version in [MOPO: Model-based Offline Policy Optimization](https://arxiv.org/pdf/2005.13239.pdf), which is proposed by the same research team. But in our implementation, there are no significant differences between two version of dynamic model.
+The implementation of ensemble dynamics model will have an important impact on the performance of model-based RL algorithm. Both tensorflow dynamic model and pytorch dynamic model are tested. For tensorflow model, we don't find offcial code for COMBO, so we reuse the official version in [MOPO: Model-based Offline Policy Optimization](https://arxiv.org/pdf/2005.13239.pdf), which is proposed by the same research team. But in our implementation, there are no significant differences between two versions of dynamic model.
 
 # Main Dependencies
 - gym 0.22.0
